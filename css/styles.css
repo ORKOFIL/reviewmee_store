@@ -149,7 +149,7 @@ header.nav{
 .ripple span:nth-child(3){animation-delay:1.7s}
 @keyframes pulse{0%{transform:scale(.4);opacity:.8}100%{transform:scale(1.25);opacity:0}}
 .phone{
-  position:absolute;right:-13%;bottom:-6%;width:142px;
+  position:absolute;right:-13%;bottom:9%;width:142px;
   background:var(--ink-2);border:1px solid var(--line-hot);border-radius:20px;padding:13px 12px;
   box-shadow:0 34px 60px -24px rgba(0,0,0,.95);
 }
