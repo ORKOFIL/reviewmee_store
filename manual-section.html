@@ -1,0 +1,46 @@
+<style>
+/* ---------- manual ---------- */
+.manual{display:grid;grid-template-columns:1.4fr .6fr;gap:clamp(24px,3.5vw,44px);align-items:center}
+.mlist{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:15px 26px}
+.mlist li{display:flex;gap:11px;align-items:flex-start;font-size:14.5px;color:var(--muted);line-height:1.5}
+.mlist li b{color:var(--text);font-weight:600}
+.manual-buy{
+  display:flex;flex-direction:column;align-items:flex-start;gap:8px;
+  background:var(--ink);border:1px solid var(--line-hot);border-radius:var(--radius);padding:26px 24px;
+}
+.mprice{font-family:var(--display);font-weight:800;font-size:clamp(36px,5vw,48px);letter-spacing:-.03em;line-height:1}
+.mnote{color:var(--dim);font-size:13.5px}
+.manual-buy .btn{width:100%;margin-top:10px}
+
+</style>
+
+<!-- MANUAL -->
+<section class="sec" id="manual">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Мануал</span>
+      <h2>Хочете возити <span class="hot">самі з Китаю</span>?</h2>
+      <p>Ми зібрали весь свій шлях у покроковий мануал: від перших листів фабриці до розмитненої коробки на вашому столі. Без нього цей шлях коштує кількох зіпсованих партій.</p>
+    </div>
+    <div class="card manual">
+      <ul class="mlist">
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" style="flex:none;margin-top:4px"><path d="M20 6L9 17l-5-5"/></svg><span><b>Прямі контакти фабрик</b> — менеджери, з якими працюємо самі, і як із ними домовлятися</span></li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" style="flex:none;margin-top:4px"><path d="M20 6L9 17l-5-5"/></svg><span><b>Перевірка чипа й матеріалу</b> — як не отримати дешевий аналог замість обіцяного чипа</span></li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" style="flex:none;margin-top:4px"><path d="M20 6L9 17l-5-5"/></svg><span><b>ТЗ англійською</b> — готові шаблони листів і вимог до макета — просто копіюєте</span></li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" style="flex:none;margin-top:4px"><path d="M20 6L9 17l-5-5"/></svg><span><b>Оплата й гарантії</b> — Trade Assurance, передоплата, що робити при спорі</span></li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" style="flex:none;margin-top:4px"><path d="M20 6L9 17l-5-5"/></svg><span><b>Логістика й митниця</b> — строки, способи доставки і скільки реально виходить за штуку «під ключ»</span></li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" style="flex:none;margin-top:4px"><path d="M20 6L9 17l-5-5"/></svg><span><b>Розрахунок собівартості</b> — таблиця з усіма прихованими витратами, про які не пишуть</span></li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" style="flex:none;margin-top:4px"><path d="M20 6L9 17l-5-5"/></svg><span><b>Перші клієнти</b> — скрипти для закладів і приклади комерційних пропозицій</span></li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" style="flex:none;margin-top:4px"><path d="M20 6L9 17l-5-5"/></svg><span><b>Підтримка в Telegram</b> — ведемо вас під час першого замовлення й відповідаємо на питання</span></li>
+      </ul>
+      <aside class="manual-buy">
+        <span class="mprice">$499</span>
+        <span class="mnote">Одноразово, доступ назавжди</span>
+        <a class="btn" href="#order">Купити мануал</a>
+        <p class="note">Оновлення контактів і цін — безкоштовно. Якщо фабрика з мануала перестане працювати, дамо робочу заміну.</p>
+      </aside>
+    </div>
+    <p class="note" style="text-align:center;margin-top:22px">Потрібні картки вже цього тижня — беріть партію вище. Мануал для тих, хто будує постачання надовго.</p>
+  </div>
+</section>
+
